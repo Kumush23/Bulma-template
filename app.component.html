@@ -1,0 +1,60 @@
+<nav class="navbar has-shadow" role="navigation" aria-label="main navigation" height="200">
+    <div class="navbar-brand pl-6">
+        <a class="navbar-item" href="https://bulma.io">
+            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="navbar-test">
+        <span class="icon is-large ">
+            <i class="fas fa-lg fa fa-facebook"></i>
+        </span>
+        <span class="icon is-large ">
+            <i class="fas fa-lg fa-info-circle"></i>
+        </span>
+        <span class="icon is-large ">
+            <i class="fas fa-lg fa-info-circle"></i>
+        </span>
+        <span class="icon is-large ">
+            <i class="fas fa-lg fa-info-circle"></i>
+        </span>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end pr-6">
+            <a  routerLink="home" routerLinkActive="has-text-primary"  class="navbar-item "> Home</a>
+            <a  routerLink="static-post" routerLinkActive="has-text-primary"  class="navbar-item"> Static Post </a>
+            <a routerLink="about" routerLinkActive="has-text-primary" class="navbar-item"> About </a>
+            <a  routerLink="contact" routerLinkActive="has-text-primary"  class="navbar-item"> Contact </a>
+        </div>
+    </div>
+</nav>
+
+<div class="header-content">
+    <section class="hero is-light">
+        <div class="hero-body">
+            <div class="container has-text-centered" font-family="Arial, Helvetica, sans-serif">
+                <h1 class="title is-1 is-spaced">Example Bulma</h1>
+                <h3 class="subtitle is-3">...or something</h3>
+            </div>
+        </div>
+    </section>
+</div>
+<router-outlet></router-outlet>
+
+<footer class="footer mt-6">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma template</strong> by <a href="https://jgthms.com">Kumush</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+
